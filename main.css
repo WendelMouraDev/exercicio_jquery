@@ -1,0 +1,43 @@
+*{
+    background-color: rgb(102, 204, 170);
+}
+
+.entradaFormulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+#inputTarefa, #adicionar{
+    padding: 5px 3px;
+}
+
+input, li{
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin: 0 3px;
+    
+}
+
+.newTarefa > input{
+    height: 50px;
+}
